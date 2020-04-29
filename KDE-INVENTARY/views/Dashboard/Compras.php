@@ -10,8 +10,9 @@ $pagina->headerTemplate('Compras');
 <!--Area de los data table-->
 <div class="d-flex justify-content-center">
             <h3 class="mt-5" id="TituloPag"><i class="fad fa-shopping-bag mr-3"></i>Compras</h3>
-            <hr>
+            
             </div>
+            <hr>
     <div class="row">
             <div class="row mt-3 ml-2 d-flex justify-content-start">
             <a class="btn btn btn-success" href="" role="button" data-toggle="modal" data-target="#ModalAgregar">Agregar</a>

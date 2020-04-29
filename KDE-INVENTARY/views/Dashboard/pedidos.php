@@ -4,12 +4,13 @@ $pagina = new page;
 $pagina->headerTemplate('Pedidos');
 ?>
 <div class="container">
-    <div class="row">
-        <div class="col-lg-12 mb-4">
+        <div class="d-flex justify-content-center">
             <h3 class="mt-5" id="TituloPag"><i class="fas fa-sort-size-up-alt mr-3"></i>Pedidos</h3>
-            <hr>
+            
         </div>
-        <div class="col-lg-12">
+        <hr>   
+    <div class="row"> 
+        <div class="col-lg-12 mt-5">
             <table id="Pedidos" class="table table-striped table-bordered" style="width:100%">
                 <thead>
                     <tr>

@@ -9,8 +9,9 @@ $pagina->headerTemplate('Productos');
 <!--Area de los data table-->
 <div class="d-flex justify-content-center">
         <h3 class="mt-5" id="TituloPag"><i class="fas fa-box-open mr-3"></i>Productos</h3>
-                    <hr>
+                    
             </div>
+            <hr>
     <div class="row">
             <div class="row mt-3 ml-2 d-flex justify-content-start">
             <a class="btn btn btn-success" href="" role="button">Agregar</a>

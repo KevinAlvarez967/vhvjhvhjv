@@ -6,10 +6,11 @@ $pagina->headerTemplate('Proveedores');
 
 <div class="container">
 <!--Area de los data table-->
-<div class="d-flex justify-content-center">
-            <h3 class="mt-5" id="TituloPag"><i class="fas fa-users mr-3"></i>Proveedores</h3>
-            <hr>
+            <div class="d-flex justify-content-center">
+                <h3 class="mt-5" id="TituloPag"><i class="fas fa-users mr-3"></i>Proveedores</h3>
+               
             </div>
+            <hr>
     <div class="row">
             <div class="row mt-3 ml-2 d-flex justify-content-start">
                 <a class="btn btn btn-success" href="" role="button"  data-toggle="modal" data-target="#Agregar">Agregar</a>
