@@ -10,3 +10,13 @@ $(document).ready(function() {
 
     $('#Pedidos').DataTable();
 } );
+
+$(document).ready(function() {
+
+    $('#Compra').DataTable();
+} );
+
+$(document).ready(function() {
+
+    $('#DetCompra').DataTable();
+} );

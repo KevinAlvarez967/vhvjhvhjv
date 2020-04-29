@@ -16,7 +16,7 @@ $pagina->headerTemplate('Detalle Compras');
                 </div>
     <div class="row">
         <div class= "col-lg-6 mt-5">
-                    <table id="Productos" class="table table-striped table-bordered" style="width:100%">
+                    <table id="DetCompra" class="table table-striped table-bordered" style="width:100%">
                     <thead>
                         <tr>
                             <th>Fecha de la compra</th>
