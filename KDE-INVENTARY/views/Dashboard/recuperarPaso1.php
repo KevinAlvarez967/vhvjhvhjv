@@ -29,7 +29,7 @@
                     </div>
                     <div class="d-flex justify-content-between mt-5">
                         <button type="button" class="btn btn-info">Re-enviar</button>
-                        <a class="btn btn btn-success" href="recuperarPaso2.php" role="button">Acceder</a>
+                        <a class="btn btn btn-success" href="recuperarPaso2.php" role="button">Enviar</a>
                     </div>
                 </form>
             </div>
