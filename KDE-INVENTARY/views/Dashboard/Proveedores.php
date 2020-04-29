@@ -7,7 +7,8 @@ $pagina->headerTemplate('Proveedores');
 <div class="container">
 <!--Area de los data table-->
 <div class="d-flex justify-content-center">
-                <h5 class="display-4 mt-5" id="TituloPag">Proveedores</h5>
+            <h3 class="mt-5" id="TituloPag"><i class="fas fa-users"></i>Proveedores</h3>
+            <hr>
             </div>
     <div class="row">
             <div class="row mt-3 ml-2 d-flex justify-content-start">

@@ -9,7 +9,8 @@ $pagina->headerTemplate('Compras');
 
 <!--Area de los data table-->
 <div class="d-flex justify-content-center">
-               <h5 class="display-4 mt-5" id="TituloPag">Compras</h5>
+            <h3 class="mt-5" id="TituloPag"><i class="fad fa-shopping-bag"></i>Compras</h3>
+            <hr>
             </div>
     <div class="row">
             <div class="row mt-3 ml-2 d-flex justify-content-start">
