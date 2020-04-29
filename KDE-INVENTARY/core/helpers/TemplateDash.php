@@ -46,6 +46,9 @@ class Page
                         <a class="nav-link" href="#">Pedidos</a>
                         </li>
                         <li class="nav-item active">
+                        <a class="nav-link" href="Compras.php">Compras</a>
+                        </li>
+                        <li class="nav-item active">
                         <a class="nav-link" href="#">Usuarios</a>
                         </li>
                         <li class="nav-item active">
