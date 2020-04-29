@@ -49,7 +49,7 @@ class Page
                         <a class="nav-link" href="Compras.php">Compras</a>
                         </li>
                         <li class="nav-item active">
-                        <a class="nav-link" href="#">Usuarios</a>
+                        <a class="nav-link" href="Usuarios.php">Usuarios</a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Reportes</a>
@@ -94,11 +94,10 @@ class Page
             <script src="../../resources/js/jquery-3.4.1.min.js"></script>
     <script src="../../resources/js/bootstrap.min.js"></script>
     <script src="../../resources/js/shards.min.js"></script>
-  
-    <script src="../../resources/js/dataTables.bootstrap4.min.js"></script>
-    <script src="../../resources/js/dataTables.responsive.min.js"></script>        
     <script src="../../resources/js/jquery.dataTables.min.js"></script>        
-    <script src="../../resources/js/responsive.bootstrap4.min.js"></script>  
+    <script src="../../resources/js/dataTables.responsive.min.js"></script>  
+    <script src="../../resources/js/responsive.bootstrap4.min.js"></script>
+    <script src="../../resources/js/dataTables.bootstrap4.min.js"></script>   
     <script src="../../resources/js/Dash.js"></script>
             </body>
             </html> 
