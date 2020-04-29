@@ -60,15 +60,15 @@ class Page
                     
                     <i class="fas fa-user fa-2x"  class="d-inline-block align-top" alt=""></i>
 
-                    <div class="dropdown ml-4 ">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="dropdown ml-4" >
+                        <a style="background-color: #e3f2fd; color:black;"class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Opciones
                         </a>
                     
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                         <a class="dropdown-item" href="#">Empleados</a>
                         <a class="dropdown-item" href="#">Facturas</a>
-                        <a class="dropdown-item" href="#">Cerrar sesion</a>
+                        <a class="dropdown-item" href="login.php">Cerrar sesion</a>
                         </div>
                     </div>
                     </nav>
