@@ -8,7 +8,7 @@ $pagina->headerTemplate('Productos');
 
 <!--Area de los data table-->
 <div class="d-flex justify-content-center">
-        <h3 class="mt-5" id="TituloPag"><i class="fas fa-box-open"></i>Productos</h3>
+        <h3 class="mt-5" id="TituloPag"><i class="fas fa-box-open mr-3"></i>Productos</h3>
                     <hr>
             </div>
     <div class="row">
