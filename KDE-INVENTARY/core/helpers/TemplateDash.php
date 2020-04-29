@@ -43,7 +43,7 @@ class Page
                         <a class="nav-link" href="Productos.php">Productos</a>
                         </li> 
                         <li class="nav-item active">
-                        <a class="nav-link" href="#">Pedidos</a>
+                        <a class="nav-link" href="pedidos.php">Pedidos</a>
                         </li>
                         <li class="nav-item active">
                         <a class="nav-link" href="#">Usuarios</a>
