@@ -7,5 +7,6 @@ $(document).ready(function() {
 } );
 
 $(document).ready(function() {
+
     $('#Pedidos').DataTable();
 } );
