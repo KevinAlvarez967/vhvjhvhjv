@@ -7,12 +7,11 @@ $pagina->headerTemplate('Proveedores');
 <div class="container">
 <!--Area de los data table-->
 <div class="d-flex justify-content-center">
-                <h5 class="display-4 mt-5" id="TituloPag" style="border-bottom: 3px solid black;">Proveedores</h5>
+                <h5 class="display-4 mt-5" id="TituloPag">Proveedores</h5>
             </div>
     <div class="row">
             <div class="row mt-3 ml-2 d-flex justify-content-start">
-                <a class="btn"  role="button" style="background-color:#71C2EC; color: White; " 
-                data-toggle="modal" data-target="#Agregar">Agregar</a>
+                <a class="btn btn btn-success" href="" role="button"  data-toggle="modal" data-target="#Agregar">Agregar</a>
             </div>
         <div class= "col-lg-12 mt-5">
         <table id="Proveedores" class="table table-striped table-bordered" style="width:100%">
@@ -255,8 +254,8 @@ $pagina->headerTemplate('Proveedores');
         <h4>¿Esta seguro de que desea eliminar este elemento?<h4>
       </div>
       <div class="modal-footer border-0">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-        <button type="button" class="btn btn-primary">Guardar</button>
+      <button type="button" class="btn btn-primary" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-danger">Eliminar</button>
       </div>
     </div>
   </div>

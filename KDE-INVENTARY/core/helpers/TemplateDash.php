@@ -37,10 +37,10 @@ class Page
                         <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                        <a class="nav-link" href="#">Proveedores</a>
+                        <a class="nav-link" href="Proveedores.php">Proveedores</a>
                         </li>
                         <li class="nav-item active">
-                        <a class="nav-link" href="#">Productos</a>
+                        <a class="nav-link" href="Productos.php">Productos</a>
                         </li> 
                         <li class="nav-item active">
                         <a class="nav-link" href="#">Pedidos</a>
