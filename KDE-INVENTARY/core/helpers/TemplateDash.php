@@ -19,9 +19,10 @@ class Page
     <link rel="stylesheet" href="../../resources/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../resources/css/shards.min.css">
     <link rel="stylesheet" href="../../resources/icons/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="../../resources/css/dataTables.bootstrap4.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/responsive.bootstrap4.min.css"/>
   </head>
   <body>
-
             <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #e3f2fd;">
                 <a class="navbar-brand" href="#">
                     <img src="../../resources/img/logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
@@ -67,7 +68,8 @@ class Page
                         <a class="dropdown-item" href="#">Cerrar sesion</a>
                         </div>
                     </div>
-        
+                    </nav>
+
         
         
         ');
@@ -83,39 +85,18 @@ class Page
     {
         print
         ('  
-         </nav>
-
-
-
-        <footer>
-            <nav class="navbar navbar-expand-lg  fixed-bottom navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar w/ text</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                  </ul>
-                  <span class="navbar-text">
-                    Navbar text with an inline element
-                  </span>
-                </div>
-              </nav>
-        </footer>
+        
             <!-- Optional JavaScript -->
             <!-- JavaScript Dependencies: jQuery, Popper.js, Bootstrap JS, Shards JS -->
             <script src="../../resources/js/jquery-3.4.1.min.js"></script>
-            <script src="../../resources/js/bootstrap.min.js"></script>
-            <script src="../../resources/js/shards.min.js"></script>
+    <script src="../../resources/js/bootstrap.min.js"></script>
+    <script src="../../resources/js/shards.min.js"></script>
+  
+    <script src="../../resources/js/dataTables.bootstrap4.min.js"></script>
+    <script src="../../resources/js/dataTables.responsive.min.js"></script>        
+    <script src="../../resources/js/jquery.dataTables.min.js"></script>        
+    <script src="../../resources/js/responsive.bootstrap4.min.js"></script>  
+    <script src="../../resources/js/Dash.js"></script>
             </body>
             </html> 
             ');
