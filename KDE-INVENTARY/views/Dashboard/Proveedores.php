@@ -16,7 +16,7 @@ $pagina->headerTemplate('Proveedores');
                 <a class="btn btn btn-success" href="" role="button"  data-toggle="modal" data-target="#Agregar">Agregar</a>
             </div>
         <div class= "col-lg-12 mt-5">
-        <table id="Proveedores" class="table table-striped table-bordered" style="width:100%">
+        <table id="Proveedores" class="table table-striped table-bordered dt-responsive nowrap" style="width:100%">
         <thead>
             <tr>
                 <th>Nombres</th>

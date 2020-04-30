@@ -14,10 +14,10 @@ $pagina->headerTemplate('Productos');
             <hr>
     <div class="row">
             <div class="row mt-3 ml-2 d-flex justify-content-start">
-            <a class="btn btn btn-success" href="" role="button">Agregar</a>
+            <a class="btn btn btn-success" href="Compras.php" role="button">Agregar</a>
             </div>
         <div class= "col-lg-12 mt-5">
-        <table id="Productos" class="table table-striped table-bordered" style="width:100%">
+        <table id="Productos" class="table table-striped table-bordered dt-responsive nowrap" style="width:100%">
         <thead>
             <tr>
                 <th>Producto</th>

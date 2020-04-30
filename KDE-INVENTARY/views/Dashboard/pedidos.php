@@ -11,7 +11,7 @@ $pagina->headerTemplate('Pedidos');
         <hr>   
     <div class="row"> 
         <div class="col-lg-12 mt-5">
-            <table id="Pedidos" class="table table-striped table-bordered" style="width:100%">
+            <table id="Pedidos" class="table table-striped table-bordered dt-responsive nowrap" style="width:100%">
                 <thead>
                     <tr>
                         <th>Pedido</th>

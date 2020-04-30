@@ -18,7 +18,7 @@ $pagina->headerTemplate('Compras');
             <a class="btn btn btn-success" href="" role="button" data-toggle="modal" data-target="#ModalAgregar">Agregar</a>
             </div>
         <div class= "col-lg-12 mt-5">
-        <table id="Compra" class="table table-striped table-bordered" style="width:100%">
+        <table id="Compra" class="table table-striped table-bordered dt-responsive nowrap" style="width:100%">
         <thead>
             <tr>
                 <th>Fecha de la compra</th>
@@ -167,6 +167,27 @@ $pagina->headerTemplate('Compras');
 </div>
 
 <!--Modal Agregar-->
+<!--Modal Eliminar-->
+<div class="modal" id="Eliminar" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <h5 class="modal-title">Advertencia</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h4>¿Esta seguro de que desea eliminar este elemento?<h4>
+      </div>
+      <div class="modal-footer border-0">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-danger">Eliminar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal Eliminar-->
 
 
 <?php

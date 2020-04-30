@@ -19,25 +19,18 @@
             <div class="d-flex justify-content-center mt-5 pt-5">
                 <form class="container">
                     <div class="my-3 mb-5">
-                        <h1 class="text-center">Bienvenido A KDE</h1>
+                        <h1 class="text-center">Recuperar contraseña</h1>
+                        <p class="text-center"><small>Se le enviara un codigo de verficacion a el correo electronico que ingrese. Puede revisar en correo no deseados</small></p>
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">Correo</label>
+                        <label for="exampleFormControlInput1">Correo electronico</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre@ejemplo.com">
+                        <small id="emailHelp" class="form-text text-muted mt-4"><a href="login.php" style="text-decoration: none;">Regresar a login</a></small>
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Contraseña</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    <div class="d-flex justify-content-between mt-5">
+                        <button type="button" class="btn btn-info">Re-enviar</button>
+                        <a class="btn btn-success" href="recuperarPaso2.php" role="button">Enviar</a>
                     </div>
-                    <div class="d-flex justify-content-between">
-
-                            <div class="custom-control custom-checkbox mt-4 mb-4">
-                                <input type="checkbox" class="custom-control-input" id="customCheck2">
-                                <label class="custom-control-label" for="customCheck2">Recordar</label>
-                            </div>
-                            <small id="emailHelp" class="form-text text-muted mt-4"><a href="recuperarpaso1.php" style="text-decoration: none;">Recuperar Contraseña</a></small>
-                        </div>
-                        <a class="btn btn-success" href="inicio.php" role="button">Iniciar Sesion</a>
                 </form>
             </div>
         </div>

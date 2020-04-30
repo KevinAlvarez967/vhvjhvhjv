@@ -34,25 +34,10 @@ class Page
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                         <li class="nav-item active">
-                        <a class="nav-link" href="inicio.php">Inicio <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="CreacionPedidos.php">Crear pedidos <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                        <a class="nav-link" href="Proveedores.php">Proveedores</a>
-                        </li>
-                        <li class="nav-item active">
-                        <a class="nav-link" href="Productos.php">Productos</a>
-                        </li> 
-                        <li class="nav-item active">
-                        <a class="nav-link" href="pedidos.php">Pedidos</a>
-                        </li>
-                        <li class="nav-item active">
-                        <a class="nav-link" href="Compras.php">Compras</a>
-                        </li>
-                        <li class="nav-item active">
-                        <a class="nav-link" href="Usuarios.php">Usuarios</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="Reportes.php">Reportes</a>
+                        <a class="nav-link" href="VisualizacionPedidos.php">Pedidos<span class="sr-only">(current)</span></a>
                         </li>
                 </ul>
                 </div>
@@ -62,14 +47,14 @@ class Page
                   
                     <button type="button" class="btn" id="User-icon"><a href="Perfil.php" style= "text-align: center; text-decoration: none; color: #000000;">
                     <i class="fas fa-user fa-2x"  class="d-inline-block align-top" alt="" ></i></button>
-                    <div class="dropdown ml-4"  >
+                    <div class="dropdown ml-4" >
                         <a style="background-color: #BAC9FF; color:black;"class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Opciones
                         </a>
                     
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="usuarios.php">Empleados</a>
-                        <a class="dropdown-item" href="pedidos.php">Facturas</a>
+                        <a class="dropdown-item" href="CreacionPedidos.php">Crear pedidos</a>
+                        <a class="dropdown-item" href="VisualizacionPedidos.php">Pedidos</a>
                         <a class="dropdown-item" href="login.php">Cerrar sesion</a>
                         </div>
                     </div>

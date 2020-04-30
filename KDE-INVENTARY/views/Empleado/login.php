@@ -37,7 +37,7 @@
                             </div>
                             <small id="emailHelp" class="form-text text-muted mt-4"><a href="recuperarpaso1.php" style="text-decoration: none;">Recuperar Contraseña</a></small>
                         </div>
-                        <a class="btn btn-success" href="inicio.php" role="button">Iniciar Sesion</a>
+                        <a class="btn btn-success" href="VisualizacionPedidos.php" role="button">Iniciar Sesion</a>
                 </form>
             </div>
         </div>
