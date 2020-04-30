@@ -116,7 +116,6 @@ $pagina->headerTemplate('Detalle Compras');
 </div>
 
 
-
 <?php
- $pagina->footerTemplate();       
+$pagina->footerTemplate();
 ?>
