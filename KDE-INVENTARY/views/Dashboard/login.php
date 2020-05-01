@@ -7,23 +7,25 @@
     <title>Login KDE-INVENTARY</title>
     <link rel="stylesheet" href="../../resources/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../resources/css/shards.min.css">
+    <link rel="stylesheet" href="../../resources/icons/css/all.min.css">
 </head>
 
 <body style="overflow-y:hidden;overflow-x:hidden">
 
     <div class="row">
-        <div class="col-lg-8 d-flex justify-content-end">
-            <img src="../../Resources/img/Distant Mountain.jpg" height="767" class="d-none d-sm-none d-md-block">
+        <div class="col-lg-5 d-flex justify-content-end">
+            <img src="../../Resources/img/login.png" height="590" class="d-none d-sm-none d-md-block">
         </div>
-        <div class="col-lg-4" style="background-color: White">
-            <div class="d-flex justify-content-center mt-5 pt-5">
+        <div class="col-lg-5 ml-lg-5 mt-lg-5 pt-lg-3" style="background-color: White">
+            <div class="mt-5 pt-5">
                 <form class="container">
                     <div class="my-3 mb-5">
-                        <h1 class="text-center">Bienvenido A KDE</h1>
+                        <h2 class="text-center">Login KDE</h2>
+                        <small id="emailHelp" class="form-text text-muted text-center">Bienvenido administrador, ingrese aqui sus credenciales para poder hacer uso del sistema.</small>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Correo</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre@ejemplo.com">
+                        <input type="email" class="form-control" id="exampleFormControlInput1">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Contraseña</label>

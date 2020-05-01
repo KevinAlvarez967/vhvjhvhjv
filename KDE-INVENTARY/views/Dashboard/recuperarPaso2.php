@@ -12,14 +12,14 @@
 <body style="overflow-y:hidden;overflow-x:hidden">
 
     <div class="row">
-        <div class="col-lg-8 d-flex justify-content-end">
-            <img src="../../Resources/img/Distant Mountain.jpg" height="767" class="d-none d-sm-none d-md-block">
+        <div class="col-lg-5 d-flex justify-content-end">
+            <img src="../../Resources/img/login.png" height="590" class="d-none d-sm-none d-md-block">
         </div>
-        <div class="col-lg-4" style="background-color: White">
+        <div class="col-lg-5 ml-lg-5 mt-lg-5 pt-lg-3" style="background-color: White">
             <div class="d-flex justify-content-center mt-5 pt-5">
                 <form class="container">
                     <div class="my-3 mb-5">
-                        <h1 class="text-center">Codigo de verificacion</h1>
+                        <h2 class="text-center">Codigo de verificacion</h2>
                         <p class="text-center"><small>Ingrese el codigo de 4 dijitos enviado a su correo electronico</small></p>
                     </div>
                     <div class="form-group">
